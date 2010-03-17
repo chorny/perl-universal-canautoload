@@ -1,3 +1,4 @@
+use 5.006;
 use strict;
 package UNIVERSAL::canAUTOLOAD;
 use Class::ISA;

@@ -7,6 +7,7 @@ Module::Build->new(
     requires    => {
         'Test::More' => 0,
         'Class::ISA' => 0,
+        'perl'       => 5.006,
     },
     create_makefile_pl => 'passthrough',
    )
