@@ -12,5 +12,15 @@ Module::Build->new(
         'Test::More' => 0,
     },
     create_makefile_pl => 'passthrough',
+    meta_merge => {
+        'keywords' => [
+            'OOP',
+            'AUTOLOAD',
+            'can',
+        ],
+        'resources' => {
+            'repository' => 'http://github.com/richardc/perl-universal-canautoload'
+        }
+    },
    )
   ->create_build_script;
